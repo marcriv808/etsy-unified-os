@@ -1,0 +1,41 @@
+local_paths:
+  # Vault skills (all etsy-* skills)
+  - /Users/marcrivera/00-vault/skills
+  # Vault projects (etsy pipeline docs)
+  - /Users/marcrivera/00-vault/projects
+  # Desktop: finished product output bundles
+  - /Users/marcrivera/Desktop/Etsy Products Output
+  # Desktop: ready-to-list products
+  - /Users/marcrivera/Desktop/Etsy Ready to List
+  # Desktop: minimal wedding suite
+  - /Users/marcrivera/Desktop/minimal-wedding-suite
+  # Desktop: listing research OS Notion doc
+  - /Users/marcrivera/Desktop
+  # Main pipeline repo (openclaw-starter)
+  - /Users/marcrivera/Documents/GitHub/openclaw-starter
+
+github:
+  token_env_var: GITHUB_TOKEN
+  repos:
+    # Main Etsy product pipeline
+    - marcriv808/openclaw-starter
+    # Vyrla (etsy-adjacent)
+    - marcriv808/vyrla
+    # Trend research API
+    - marcriv808/trend-api
+    # This repo itself
+    - marcriv808/etsy-unified-os
+  include_patterns:
+    - "*.md"
+    - "*.yaml"
+    - "*.yml"
+    - "*.json"
+    - "*.txt"
+    - "*.py"
+    - "*.ts"
+    - "*.html"
+    - "*.csv"
+
+output:
+  root: data/raw
+  manifest: data/manifest.json
