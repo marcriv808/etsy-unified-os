@@ -1,16 +1,18 @@
 local_paths:
   # Vault skills (all etsy-* skills)
   - /Users/marcrivera/00-vault/skills
-  # Vault projects (etsy pipeline docs)
+  # Vault project docs (etsy pipeline docs)
   - /Users/marcrivera/00-vault/projects
   # Desktop: finished product output bundles
   - /Users/marcrivera/Desktop/Etsy Products Output
   # Desktop: ready-to-list products
   - /Users/marcrivera/Desktop/Etsy Ready to List
+  # Desktop: listing research OS Notion doc
+  - /Users/marcrivera/Desktop/etsy-listing-research-os-v1.md
   # Desktop: minimal wedding suite
   - /Users/marcrivera/Desktop/minimal-wedding-suite
-  # Desktop: listing research OS Notion doc
-  - /Users/marcrivera/Desktop
+  # Desktop: Etsy Upload Pack
+  - /Users/marcrivera/Desktop/Etsy-Upload-Pack
   # Main pipeline repo (openclaw-starter)
   - /Users/marcrivera/Documents/GitHub/openclaw-starter
 
