@@ -1,0 +1,19 @@
+local_paths:
+  - /Users/your-user/00-vault/skills
+  - /Users/your-user/projects/etsy
+
+github:
+  token_env_var: GITHUB_TOKEN
+  repos:
+    - your-org/etsy-product-pipelines
+    - your-user/etsy-assets
+  include_patterns:
+    - "*.md"
+    - "*.yaml"
+    - "*.yml"
+    - "*.json"
+    - "*.txt"
+
+output:
+  root: data/raw
+  manifest: data/manifest.json

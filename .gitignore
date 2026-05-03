@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Data artifacts
+/data/raw/**
+!/data/raw/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
